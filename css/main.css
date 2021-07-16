@@ -1,0 +1,34 @@
+body {
+  background: #50c1bf;
+}
+body .accordion {
+  width: 50%;
+}
+body .accordion li {
+  list-style: none;
+  background: #c09898;
+  margin-bottom: -22px;
+  cursor: pointer;
+}
+body .accordion li h2 {
+  position: relative;
+  height: 1.5em;
+  padding: 10px 0 0 4.5%;
+  background: #b63e3e;
+  color: #cacaca;
+  font-size: 26px;
+}
+body .accordion li .content {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: 0.5s;
+}
+body .accordion li .content p {
+  color: #000;
+  width: 90%;
+  padding: 0 0 20px 0;
+  margin: auto;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
