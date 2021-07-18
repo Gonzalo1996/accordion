@@ -4,28 +4,41 @@ body {
 body .accordion {
   width: 50%;
 }
-body .accordion li {
+body .accordion .prueba {
+  position: relative;
   list-style: none;
-  background: #c09898;
-  margin-bottom: -22px;
-  cursor: pointer;
+  background: #b63e3e;
 }
-body .accordion li h2 {
+body .accordion .prueba.activo .content {
+  height: 150px;
+}
+body .accordion .prueba .title {
+  background: #b63e3e;
+  height: 55px;
+  width: 90%;
+  margin-left: 5%;
+  border-bottom: 2px solid #cacaca;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .accordion .prueba .title h2, body .accordion .prueba .title i {
   position: relative;
   height: 1.5em;
-  padding: 10px 0 0 4.5%;
-  background: #b63e3e;
+  padding-top: 5px;
   color: #cacaca;
   font-size: 26px;
 }
-body .accordion li .content {
+body .accordion .prueba .content {
+  background: #c09898;
   position: relative;
-  height: 0;
+  height: 0px;
   overflow: hidden;
   overflow-y: auto;
-  transition: 0.5s;
+  transition: 1s;
 }
-body .accordion li .content p {
+body .accordion .prueba .content p {
   color: #000;
   width: 90%;
   padding: 0 0 20px 0;
