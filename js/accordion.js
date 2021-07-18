@@ -14,7 +14,6 @@ function accordion(){
         const item = accordion.children
         console.log(item)
         for(let i = 0; i < item.length; i++){
-            console.log(item[i].children);
             item[i].onclick = function(){
                 console.log('entre', i)
                 if(item[i].classList.contains('activo')){

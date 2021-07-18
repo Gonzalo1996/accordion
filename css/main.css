@@ -11,6 +11,7 @@ body .accordion .prueba {
 }
 body .accordion .prueba.activo .content {
   height: 150px;
+  padding-top: 15px;
 }
 body .accordion .prueba .title {
   background: #b63e3e;
